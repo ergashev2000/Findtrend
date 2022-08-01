@@ -124,6 +124,11 @@ header {
   width: fit-content;
   margin: 0 auto;
   display: block;
+  transition: all 0.5s;
+}
+.hero__text .hero__btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 .hero__text .arrow {
   display: flex;
@@ -375,6 +380,11 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: all 0.5s;
+}
+.info .info__text .info__box .info__btn__new:hover {
+  background-color: #A8FF35;
+  color: #000;
 }
 .info .info__text .info__box .info__btn__new svg {
   margin: 10px;
@@ -475,6 +485,11 @@ header {
   width: -moz-fit-content;
   width: fit-content;
   margin: 50px auto;
+  transition: all 0.5s;
+}
+.platform__btn:hover {
+  background-color: #A8FF35;
+  color: #000;
 }
 
 /* toggle-pill-color */
@@ -617,6 +632,11 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  transition: all 0.5s;
+}
+.join .join__btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .foot {

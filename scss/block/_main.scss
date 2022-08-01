@@ -39,7 +39,12 @@
             width: fit-content;
             margin: 0 auto;
             display: block;
+            transition: all .5s;
+            &:hover{
+                background-color: #fff;
+                color: #000;
 
+            }
         }
 
         .arrow {
@@ -308,7 +313,12 @@
                 text-decoration: none;
                 display: flex;
                 align-items: center;
+                transition: all .5s;
+                &:hover{
+                    background-color: #A8FF35;
+                    color: #000;
 
+                }
                 svg {
                     margin: 10px;
                 }
@@ -423,6 +433,11 @@
     display: block;
     width: fit-content;
     margin: 50px auto;
+    transition: all .5s;
+    &:hover{
+        background-color: #A8FF35;
+        color: #000;
+    }
 }
 
 
@@ -579,6 +594,11 @@
         margin: auto;
         display: block;
         width: fit-content;
+        transition: all .5s;
+        &:hover{
+            background-color: #fff;
+            color: #000;
+        }
     }
 }
 
